@@ -148,9 +148,11 @@ dmypy.json
 configs/local/default.yaml
 ./data/
 logs
-outputs
+# outputs
 remotefs
 .env
 
+# Pytorch checkpoints
+*.ckpt
 # Aim logging
 # .aim
